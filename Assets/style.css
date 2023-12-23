@@ -28,7 +28,7 @@ nav{
   overflow: hidden;
   
 }
-nav a {
+/*nav a {
   float: inline-end;
   color: var(--font);
   text-align: center;
@@ -37,7 +37,7 @@ nav a {
   font-weight: 600;
   background-color: var(--primary);
 }
-
+*/
 nav a:hover {
   background-color: var(--primary);
   color: var(--backdrop);
