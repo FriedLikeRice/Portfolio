@@ -9,12 +9,13 @@
 </head>
 
 
-
   <body>
     <header class="name">
+      <img class ="avatar" src="/Assets/IMG/Reverse_Omelette.webp" alt = "website author's avatar" >
       <h1>Jacob Ferraro</h1>
         <p>Web Developer</p>
     </header>
+
     <nav>
       <ul>
           <li><a href = "#about">About Me</a></li>
@@ -23,9 +24,10 @@
       </ul>
    </nav>
 
-   <article class = "aboutme">
+
+   <article id = "about" class = "aboutme">
     <div>
-      <h3>A little bit about me.</h3>
+      <h2>A little bit about me.</h2>
     </div>
     <div>
       <p>
@@ -41,49 +43,66 @@
     </div>
   </article>
   </section>
-  <section>
-    <h2>My Projects</h2>
-    <div class = "row">
-      <ul>
-        <li>
-          <p> Project 1</p>
-          <a link href="Project 1"> <Link><img src="https://placehold.co/500x400/png" alt="Place holder image"></Link></a>
-        </li>
-        <li>
-          <p> Project 1</p>
-          <a href = "Project 2"> <Link><img src="https://placehold.co/150x100/png" alt="Place holder image"></link></a>
-          </li>
-        <li>
-          <p> Project 1</p>
-          <a href = "Project 3"> <Link><img src="https://placehold.co/150x100/png" alt="Place holder image"></link></a>
-          </li>
-        <li>
-          <p> Project 1</p>
-          <a href = "Project 4"> <Link><img src="https://placehold.co/150x100/png" alt="Place holder image"></link></a>
-        </li>
-        <li>
-          <p> Project 1</p>
-          <a href = "Project 5"> <Link><img src="https://placehold.co/150x100/png" alt="Place holder image"></link></a>
-        </li>
-        <li>
-          <p> Project 1</p>
-          <a href = "Project 6"> <Link><img src="https://placehold.co/150x100/png" alt="Place holder image"></link></a> 
-        </li>
-        <li>
-          <p> Project 1</p>
-          <a href =  "Project 7"> <Link><img src="https://placehold.co/150x100/png" alt="Place holder image"></link></a> 
-        </li>
-      </ul>
-    </div>
+  <section id="portfolio">
+      <container class = "container">
+        <h2>My Projects</h2>
+        <div  class ="project-main" >
+          <a link href="https://github.com/FriedLikeRice/Prework-study-guide" class = "link-container">
+            <img src="https://placehold.co/1200x500/png" class = "img-main" alt="Place holder image">
+            <span class = "link-text">Pre-Work Study Guide</span>
+          </a>
+        </div>
+          <div class = "project">
+            <a href = "Project 2">
+              <img src="https://placehold.co/150x100/png" alt="Place holder image">
+              <span class = "">Pre-Work Study Guide</span>
+            </a>
+            </div>
+            <div class = "project">
+              <a href = "Project 3">
+                <img src="https://placehold.co/150x100/png" alt="Place holder image">
+                <span class = "">Pre-Work Study Guide</span>
+              </a>
+            </div>  
+            <div class = "project">
+              <a href = "Project 4">
+                <img src="https://placehold.co/150x100/png" alt="Place holder image">
+                <span class = "">Pre-Work Study Guide</span>
+              </a>
+            </div>  
+            <div class = "project">
+              <a href = "Project 5">
+                <img src="https://placehold.co/150x100/png" alt="Place holder image">
+                <span class = "">Pre-Work Study Guide</span>
+              </a>
+            </div>  
+            <div class = "project">
+              <a href = "Project 6">
+                <img src="https://placehold.co/150x100/png" alt="Place holder image">
+                <span class = "">Pre-Work Study Guide</span>
+              </a>
+            </div>  
+            <div class = "project">
+              <a href = "Project 7">
+                <img src="https://placehold.co/150x100/png" alt="Place holder image">
+                <span class = "">Pre-Work Study Guide</span>
+              </a>
+          </div>  
+      </container>
  </section>
 
 <section>
-  <div>
-    <h3>Contact Me!</h3>
+  <div id="contact" class="contact">
+    <h4>Contact Me!</h4>
     <ul>
-      <li>Personal Number: <a href="555-555-5555">Contact me!</a></li>
-      <li>GitHub: <a href="https://github.com/FriedLikeRice">My GitHub</a></li>
-      <li>Email: <a href = "mailto: Jacoblferraro@gmail.com">Email me!</a></li>
+      <li>Personal Number: 
+        <a href="555-555-5555"><span class = "cmtxt">Contact me!</span></a>
+      </li>
+      <li>GitHub: 
+        <a href="https://github.com/FriedLikeRice"><span class = "cmtxt">My GitHub!</span></a>
+      </li>
+      <li>Email: <a href = "mailto: Jacoblferraro@gmail.com"><span class = "cmtxt">Email me!</span></a></li>
+      <li>Linkedin: <a href="https://www.linkedin.com/in/jacob-ferraro-108a44b7"><span class = "cmtxt">My Linkedin!</span></a></li>
     </ul>
   </div>
 </section>
